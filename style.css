@@ -81,7 +81,7 @@ h1 {
 
 } 
 
-.sign-up-button {
+.hero-button {
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -144,7 +144,7 @@ h1 {
 
 .container-3 {
     background-color: #E5E7EB;
-    padding: 200px 450px 150px 450px;
+    padding: 200px 475px 150px 475px;
     display: flex;
     flex-direction: column;
 }
@@ -155,3 +155,53 @@ h1 {
     padding-right: 50px;
     font-size: large;
 }
+
+.container-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-background {
+    background-color: #3882f6;
+    flex-grow: 1;
+    margin: 150px 400px 150px 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+
+
+}
+
+.container-4 ,
+.call-to-action-button {
+    color: white;
+}
+
+
+.call-to-action button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+}
+
+.call-to-action-title,
+.call-to-action button {
+    font-weight: bold;
+}
+
+
+.call-to-action {
+    display: flex;
+    gap: 150px;
+
+}
+
+.call-to-action-desc {
+    /* font-size: 18px; */
+    color: #E5E7EB;
+}
+
