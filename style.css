@@ -51,6 +51,7 @@ h1 {
     flex-direction: column;
     gap: 5px;
     width: 400px;
+
 }
 
 .hero-text p,
@@ -61,18 +62,16 @@ h1 {
     color: #E5E7EB;
 }
 
-.hero p,
-.hero button {
-    margin: 0;
-    padding: 0;
+.hero p
+    {
+    margin-top: 0;
+    margin-bottom: 10px;
+    /* padding: 0; */
 }
 
 .hero {
     display: flex;
     justify-content: space-between;
-
-
-    /* gap: 50px; */
 }
 
 .div-img {
@@ -90,11 +89,10 @@ h1 {
     font-size: 15px;
     color: white;
     font-weight: bold;
-
 }
 
 .hero-text button {
-    width: 150px;
+    width: 125px;
     background-color: #3882f6;
     border-radius:8px;
     border: none;
